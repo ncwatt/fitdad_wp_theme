@@ -1,0 +1,116 @@
+#hp-logo {
+    background: $bg-color1;
+    padding: 2em 0 2em 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 783px) {
+    .admin-bar #hp-logo {
+        padding: 1em 0 2em 0;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 782px) {
+    .admin-bar #hp-logo {
+        padding: 1em 0 2em 0;
+    }
+}
+
+.hp-blocks {
+    background: $bg-color1;
+    padding: 0 0 2rem 0;
+
+    h1 {
+        color: $color1;
+        font-size: 1.875rem;
+    }
+
+    .hp-block:before {
+        content: "";
+        display: block;
+        padding-top: 100%;
+    }
+
+    .hp-block {
+        position: relative;
+        overflow: hidden;
+        border-bottom: 1px solid $bg-color1;
+        border-right: 1px solid $bg-color1;
+
+        .hp-block-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            color: $color1;
+            text-align: center;
+        }
+
+        table {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .hp-block-pic1 {
+        background: url('../img/hp_block_1.jpg') no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .hp-block-pic2 {
+        background: url('../img/hp_block_2.jpg') no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .hp-block-pic3 {
+        background: url('../img/hp_block_3.jpg') no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .hp-block-pic4 {
+        background: url('../img/hp_block_4.jpg') no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .hp-block-pic5 {
+        background: url('../img/hp_block_5.jpg') no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .hp-block-text1 {
+        background: $bg-color4;
+    }
+
+    .hp-block-text2 {
+        background: $bg-color5;
+    }
+
+    .hp-block-text3 {
+        background: $bg-color6;
+    }
+    
+    .hp-block-text4 {
+        background: $bg-color7;
+    }
+
+    .hp-block-xs {
+        border-bottom: 1px solid $bg-color1;
+        padding: 1rem;
+    }
+}
+
+.hp-welcome {
+    background-color: $bg-color3;
+    padding: 2rem 0;
+}
+
+.hp-featured-post {
+    background-color: $bg-color1;
+    padding: 2rem 0 3rem 0;
+}
+
+.hp-recent-posts {
+    background-color: $bg-color3;
+    padding: 2rem 0 3rem 0;
+}

@@ -1,0 +1,51 @@
+body {
+    background-color: $bg-color0;
+    font: 1.25rem $font-default;
+    color: $color0;
+}
+
+/* Anchors */
+a.no-underline {
+    text-decoration: none;
+}
+
+/* Buttons */
+.btn-info {
+    color: $color1;
+    font-size: 1.25rem !important;
+}
+
+
+
+/* Headings */
+h1 {
+    font: bold 3.5rem $font-default;
+    font-style: italic;
+    line-height: 0.85;
+    margin: 0 0 0.6rem 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font: bold 2.5rem $font-default;
+    margin: 0 0 1rem 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    font: bold 1.75rem $font-default;
+    margin: 0 0 1rem 0;
+    text-transform: uppercase;
+}
+
+/* Images */
+.img-responsive img {
+    height: auto !important;
+    max-width: 100% !important;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.4 !important;
+}
+

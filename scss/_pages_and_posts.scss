@@ -1,0 +1,42 @@
+/* Content Blocks */
+.content-1 {
+    background-color: $color1;
+    padding: 2em 0 2em 0;
+}
+
+.content-2 {
+    background-color: $color2;
+    padding: 2em 0 2em 0;
+}
+
+.post-list {
+    a,
+    a:active,
+    a:hover,
+    a:visited {
+        text-decoration: none;
+        color: $color0;
+    }
+
+    h3 {
+        margin: 0 0 0 0 !important;
+        text-decoration: none;
+    }
+
+    img.post-stacked {
+        padding-bottom: 0.6rem;
+    }
+
+    p.post-datetime {
+        font-size: 1rem;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+}

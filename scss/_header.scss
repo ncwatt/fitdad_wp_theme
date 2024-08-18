@@ -1,0 +1,51 @@
+header {
+    //position: -webkit-sticky; /* Safari */
+    //position: sticky;
+    //top: 0;
+    z-index: 1030;
+}
+
+@media screen and (min-width: 783px) {
+    .admin-bar .admin-bar-padding {
+        margin-top: 32px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .admin-bar-content-fix {
+        background-color: $color1;
+        padding: 4em 0 0 0;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 782px) {
+    .admin-bar .admin-bar-padding {
+        margin-top: 46px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .admin-bar-content-fix {
+        background-color: $color1;
+        padding: 4em 0 0 0;
+    }
+}
+
+.navbar {
+    transition: background-color linear 0.2s;
+
+    .brand-link {
+        width: 0px;
+        margin: -3px;
+        transition: width .2s;
+    }
+
+    .brand-link-show {
+        width: 190px;
+        margin: 0px;
+    }
+}

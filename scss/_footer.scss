@@ -1,0 +1,49 @@
+footer {
+    color: $color3;
+    padding: 1rem 0;
+
+    h9 {
+        color: $color4;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    a {
+        color: $color4;
+        text-decoration: none;
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .admin-login {
+        font-size: 0.7rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .copyright {
+        margin: 0;
+        padding: 0.4rem 0 0 0;
+    }
+
+    .follow-icons {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        li .power-of-10 {
+            height: 27px; 
+            padding: 0 0 5px 0;
+        }
+
+        
+    }
+}

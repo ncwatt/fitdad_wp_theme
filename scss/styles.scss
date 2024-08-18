@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import 'variables';
+@import 'main';
+@import 'header';
+@import 'footer';
+@import 'adverts';
+@import 'home-page';
+@import 'pages_and_posts';
+
+/* This section needs tidying up and sorting out */
+/* Archive */
+.category_list {
+    font-size: 1.5rem;
+    list-style-type: none;
+    padding: 0 0 0 1rem;
+
+    li::before {
+        color: #01aece;
+        content: "\f105";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        padding: 0 1rem 0 0;
+    }
+
+    li a {
+        color: #01aece;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        text-decoration: underline;
+    }
+}
+
+/* Comments */
+.comments {
+
+    .avatar {
+        float: left;
+        margin: 0 15px 0 0;
+    }
+}
+
+/* Pagination Links - Used with post list */
+.pagination-links {
+    padding: 2rem 0 0 0;
+}
+
+/* Single post styles - single.php */
+.post-single {
+
+    p.post-datetime {
+        font-size: 1rem;
+    }
+
+    img.featured-image {
+        padding-bottom: 0.6rem;
+    }
+
+    img {
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+.widget {
+    border: 1px solid #999;
+    list-style-type: none;
+    margin: 0;
+    padding: 1.5rem;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+}

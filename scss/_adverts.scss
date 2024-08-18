@@ -1,0 +1,32 @@
+.advert-before {
+    margin: 0 0 0.5em 0;
+    line-height: 2em;
+    padding: 0;
+    font-size: 0.7em;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+    .advert-before:before, .advert-before:after {
+        content: " ";
+        position: absolute;
+        top: 50%;
+        margin-left: -999em;
+        height: 1px;
+        width: 998em;
+        border-top: 1px solid $color2;
+        background: rgba(0,0,0,0.2);
+    }
+
+    .advert-before:after {
+        left: auto;
+        width: 999em;
+        margin: 0 0 0 1em;
+    }
+
+.advert-after {
+    border-top: 1px solid $color2;
+    height: 1px;
+    margin: 0.75rem 0 0 0;
+}
