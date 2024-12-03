@@ -5,14 +5,14 @@ if (is_page_template('page-templates/running-pace-calculator.php')) { include_on
 
 function load_loadstylesheets()
 {
-	wp_register_style('stylesheet', get_template_directory_uri() . '/css/styles.css', '', '1.0.14', 'all');
+	wp_register_style('stylesheet', get_template_directory_uri() . '/assets/css/styles.css', '', '1.0.15', 'all');
 	wp_enqueue_style('stylesheet');
 }
 add_action('wp_enqueue_scripts', 'load_loadstylesheets');
 
 function load_javascript()
 {
-	wp_register_script('custom', get_template_directory_uri() . '/js/app.js', 'jquery', '1.0.6', true);
+	wp_register_script('custom', get_template_directory_uri() . '/assets/js/app.js', 'jquery', '1.0.7', true);
 	wp_enqueue_script('custom');
 }
 add_action('wp_enqueue_scripts', 'load_javascript');

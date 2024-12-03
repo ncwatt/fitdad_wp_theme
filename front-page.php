@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div id="hp-logo" class="container-fluid">
-	<img src="<?php bloginfo('template_directory');?>/img/hp-logo-large.png" alt="Fit Dad Logo" />
+	<img src="<?php bloginfo('template_directory');?>/assets/img/hp-logo-large.png" alt="Fit Dad Logo" />
 </div>
 <div class="d-md-none hp-blocks">
 	<div class="container">
@@ -203,7 +203,7 @@
 						}
 						else {
 							// No thumbnail image so lets display the default one from the template
-							echo "<a href=\"", get_the_permalink(), "\"><img src=\"", bloginfo('template_directory'), "/img/default-post-image.jpg\" class=\"img-fluid mb-2 mb-md-0\" alt=\"", get_the_title(), "\" loading=\"lazy\" /></a>";
+							echo "<a href=\"", get_the_permalink(), "\"><img src=\"", bloginfo('template_directory'), "/assets/img/default-post-image.jpg\" class=\"img-fluid mb-2 mb-md-0\" alt=\"", get_the_title(), "\" loading=\"lazy\" /></a>";
 						}
 
 						echo "</div><div class=\"col-md-6\"><a href=\"", get_the_permalink(), "\">";
@@ -273,7 +273,7 @@
 							}
 							else {
 								// No thumbnail image so lets display the default one from the template
-								echo "<img src=\"", bloginfo('template_directory'), "/img/default-post-image.jpg\" class=\"img-fluid post-stacked\" alt=\"", get_the_title(), "\" loading=\"lazy\" />";
+								echo "<img src=\"", bloginfo('template_directory'), "/assets/img/default-post-image.jpg\" class=\"img-fluid post-stacked\" alt=\"", get_the_title(), "\" loading=\"lazy\" />";
 							}
 
 							// Display the title
@@ -314,6 +314,21 @@
 					</script>
 				</div>
 				<div class="advert-after"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="hp-instagram-feed">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h2>Instagram</h2>
+				<hr />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<?php echo do_shortcode('[instagram-feed feed=1]'); ?>
 			</div>
 		</div>
 	</div>

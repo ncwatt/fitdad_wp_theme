@@ -8,7 +8,7 @@
 						<li><a href="https://twitter.com/ukfitdad" target="_blank" class="fab fa-twitter"></a>&nbsp;</li>
 						<li><a href="https://www.instagram.com/ukfitdad/" target="_blank"><i class="fab fa-instagram"></i></a>&nbsp;</li>
 						<li><a href="https://www.strava.com/athletes/23491399" target="_blank"><i class="fab fa-strava"></i></a>&nbsp;</li>
-						<li><a href="https://www.thepowerof10.info/athletes/profile.aspx?ukaurn=3947341" target="_blank"><img src="<?php bloginfo('template_directory');?>/img/power-of-10.png" class="power-of-10" /></a>&nbsp;</li>
+						<li><a href="https://www.thepowerof10.info/athletes/profile.aspx?ukaurn=3947341" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/img/power-of-10.png" class="power-of-10" /></a>&nbsp;</li>
 					</ul>
 				</div>
 				<div class="col-md-6 mt-3 mt-md-0 text-center order-3 order-md-2">

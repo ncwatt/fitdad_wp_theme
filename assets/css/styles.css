@@ -93,7 +93,7 @@ header {
 
 footer {
   color: #b3b3b3;
-  padding: 1rem 0;
+  padding: 3rem 0;
 }
 footer h9 {
   color: #01aece;
@@ -261,6 +261,11 @@ footer .follow-icons li .power-of-10 {
 
 .hp-recent-posts {
   background-color: #f2f2f2;
+  padding: 2rem 0 3rem 0;
+}
+
+.hp-instagram-feed {
+  background-color: #ffffff;
   padding: 2rem 0 3rem 0;
 }
 

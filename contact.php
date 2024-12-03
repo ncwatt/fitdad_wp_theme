@@ -95,7 +95,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="row">
             <div class="col-12">
                 <div class="d-lg-none">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/contact.jpg" class="img-fluid mb-2" alt="Contact Us" />
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/contact.jpg" class="img-fluid mb-2" alt="Contact Us" />
                 </div>
                 <h1>Contact Us</h1>
                 <figure class="d-lg-none <?php echo(isset($postSuccess)) ? 'd-none' : ''; ?> text-center">
@@ -196,7 +196,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
             <div class="col-lg-6">
                 <div class="d-none d-lg-block">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/contact.jpg" class="img-fluid mb-2" alt="Contact Us" />
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/contact.jpg" class="img-fluid mb-2" alt="Contact Us" />
                     <figure class="text-center">
                         <blockquote class="blockquote">
                             <p>"I don't know the future. I didn't come here to tell you how this is going to end. I came here to tell you how it's going to begin."</p>
